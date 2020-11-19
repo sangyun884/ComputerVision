@@ -4,7 +4,7 @@
 
 ![mnist](https://user-images.githubusercontent.com/71681194/99708392-1d267580-2ae1-11eb-9073-9cb3ccc3afb1.JPG)
 
-## Initialization
+## Mode Collapse Problem
   At first I used MNIST with xavier initialization. As a result, mode collapse occured. Random normal initialization with std=0.02 solved the proplem. I think xavier made training faster so that overfitting occured. You can try reducing the number of epoch and using He normalization.
 
 
